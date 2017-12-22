@@ -14,6 +14,9 @@ long_description = ('\n'.join([
 install_requires = [
     'setuptools',
     # -*- Extra requirements: -*-
+    'zope.contentprovider',
+    'zope.pagetemplate',
+    'zope.traversing',
 ]
 
 setup(
